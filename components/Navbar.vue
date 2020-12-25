@@ -1,13 +1,12 @@
 <template>
-  <nav class="fixed mb-8 top-0 inset-x-0 z-50 h-24 max-w-9xl mx-auto px-2 py-2 sm:px-6 md:px-6 lg:px-24 bg-white font-medium 
-    flex justify-center items-center shadow space-x-36">
+  <nav class="fixed mb-8 z-50 h-24 max-w-9xl w-full flex mx-auto py-2 sm:px-6 md:px-6 bg-white font-medium 
+    justify-center items-center shadow space-x-36">
       <!-- Extract: MobileMenu Vue component -->
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          height="28"
           viewBox="0 0 163 28"
-          class="hidden lg:block w-auto h-6 lg:h-8 text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary transition-colors duration-300 ease-linear"
+          class="hidden lg:block w-auto lg:h-8 text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary transition-colors duration-300 ease-linear"
         >
           <g fill="none" fill-rule="evenodd">
             <path
@@ -40,14 +39,17 @@
           </g>
         </svg>
       </div>
-      <div class="flex space-x-12 uppercase">
-        <a href="http://">docs</a>
-        <a href="http://">example</a>
-        <a href="http://">faq</a>
-        <a href="http://">blog</a>
-        <a href="http://">video course</a>
+      <div class="flex space-x-8 ">
+        <a href="http://" class="hover:text-green-500 uppercase">docs</a>
+        <a href="http://" class="text-green-500 uppercase">example</a>
+        <a href="http://" class="hover:text-green-500 uppercase">faq</a>
+        <a href="http://" class="hover:text-green-500 uppercase">blog</a>
+        <div class="relative">
+          <a href="http://" class="hover:text-green-500 py-6 uppercase">video courses</a>
+          <p class="absolute -right-8 -top-0 text-ss px-1 text-white bg-orange-400 rounded">new</p>
+        </div>
       </div>
-      <div class="flex">
+      <div class="flex ">
         <div class="relative">
           <form action="" method="post">
             <div class="absolute inset-3">
