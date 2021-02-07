@@ -3,6 +3,7 @@
     <div>
       <!-- header -->
       <section>
+        <div>dedy</div>
         <div class="container mx-auto w-auto sm:px-4 md:px-6 lg:px-36 py-8">
           <div class="flex h-64 my-32">
             <div> dedy</div>
