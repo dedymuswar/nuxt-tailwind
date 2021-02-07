@@ -5,10 +5,11 @@
       <section>
         <div class="container mx-auto w-auto sm:px-4 md:px-6 lg:px-36 py-8">
           <div class="flex h-64 my-32">
-            <div class="flex flex-wrap justify-between mb-8">
+            <div> dedy</div>
+            <div class="flex  flex-wrap justify-between mb-8">
               <div class="lg:w-6/12 lg:text-left text-center p-4 sm:p-0">
                 <h1
-                  class="text-3xl xl:text-4xl text-gray-600 subpixel-antialiased font-medium leading-normal mb-6 lg:pt-4"
+                  class="text-3xl xl:text-4xl text-gray-600 bg subpixel-antialiased font-medium leading-normal mb-6 lg:pt-4"
                 >
                   <span
                     >Nuxt<span class="text-green-500 opacity-80">JS</span></span
@@ -824,7 +825,7 @@
           </div>
         </div>
       </section>
-      
+
     </div>
   </div>
 </template>
