@@ -3,11 +3,9 @@
     <div>
       <!-- header -->
       <section>
-        <div>dedy</div>
-        <div class="container mx-auto w-auto sm:px-4 md:px-6 lg:px-36 py-8">
+        <div class="xl:container mx-auto w-auto sm:px-4 md:px-6 lg:px-36 py-8">
           <div class="flex h-64 my-32">
-            <div> dedy</div>
-            <div class="flex  flex-wrap justify-between mb-8">
+            <div class="flex flex-wrap justify-between mb-8">
               <div class="lg:w-6/12 lg:text-left text-center p-4 sm:p-0">
                 <h1
                   class="text-3xl xl:text-4xl text-gray-600 bg subpixel-antialiased font-medium leading-normal mb-6 lg:pt-4"
@@ -411,7 +409,7 @@
       </section>
       <!-- content -->
       <section>
-        <div class="container mx-auto w-auto sm:px-4 md:px-6 lg:px-36 py-8">
+        <div class="xl:container mx-auto w-auto sm:px-4 md:px-6 lg:px-36 py-8">
           <div class="flex flex-col space-y-7">
             <div class="flex p-4 rounded-lg bg-gray-50">
               <div class="flex flex-wrap">
@@ -673,153 +671,6 @@
                     class="w-full rounded-lg"
                     alt=""
                   />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- NewsLetter -->
-      <section>
-        <div class="bg-gray-50 shadow-inner mb-8 flex py-10">
-          <div
-            class="flex flex-col w-full justify-center items-center space-y-6"
-          >
-            <h1
-              class="text-2xl lg:text-3xl xl:text-3xl text-gray-600 subpixel-antialiased font-medium"
-            >
-              <span>Nuxt<span class="text-green-500 opacity-80">JS</span></span>
-              NewsLetter
-            </h1>
-            <p class="text-gray-500 font-medium">
-              Get the latest Nuxt news to your inbox, curated by the NuxtJS
-              team.
-            </p>
-
-            <div class="relative">
-              <form action="" method="post">
-                <input
-                  type="text"
-                  name="email"
-                  id=""
-                  placeholder="Email"
-                  class="px-6 py-3 border border-gray-200 rounded-lg w-96 focus:outline-none focus:border-green-500 overflow-hidden"
-                />
-                <button
-                  type="button"
-                  class="absolute right-0 text-white uppercase bg-emerald-400 hover:bg-emerald-300 px-6 py-3 rounded-r-lg border border-emerald-400 hover:border-emerald-300"
-                >
-                  Subscribe
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Footer -->
-      <section>
-        <div class="container mx-auto w-auto sm:px-4 md:px-6 lg:px-36 py-8">
-          <div class="w-full lg:flex sm:items-center lg:justify-between">
-            <div class="space-y-3 lg:flex lg:flex-col font-medium lg:text-left">
-              <h3 class="text-gray-700 uppercase font-semibold text-lg">
-                Discover
-              </h3>
-              <a href="#" class="hover:text-green-500">Our team</a>
-              <a href="#" class="hover:text-green-500">Design kit</a>
-              <a href="#" class="hover:text-green-500">Contact us</a>
-            </div>
-            <div
-              class="space-y-3 lg:flex lg:flex-col font-medium lg:text-center"
-            >
-              <h3 class="text-gray-700 uppercase font-semibold text-lg">
-                Help
-              </h3>
-              <a href="#" class="hover:text-green-500">Resources</a>
-              <a href="#" class="hover:text-green-500">Chat with us</a>
-              <a href="#" class="hover:text-green-500">Contribution guide</a>
-            </div>
-            <div
-              class="space-y-3 lg:flex lg:flex-col font-medium lg:text-right"
-            >
-              <h3 class="text-gray-700 uppercase font-semibold text-lg">
-                Support
-              </h3>
-              <a href="#" class="hover:text-green-500">Our Goodies Store</a>
-              <a href="#" class="hover:text-green-500"
-                >Sponsoring & donations</a
-              >
-              <a href="#" class="hover:text-green-500"
-                >Training & consultancy</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- second footer -->
-      <section>
-        <div class="border-b border-t border-gray-200">
-          <div class="container mx-auto w-auto sm:px-4 md:px-6 lg:px-36 py-4">
-            <div class="flex items-center justify-between">
-              <div
-                class="px-4 py-2 bg-gray-100 text-gray-700 font-medium rounded-full flex w-auto space-x-2"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
-                <p>System</p>
-              </div>
-              <div>
-                <img
-                  src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"
-                  class="h-10"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div class="px-4 py-2 bg-gray-100 rounded-full flex w-auto">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 mr-3"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
-                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                  />
-                </svg>
-                <p class="text-gray-700 font-medium mr-8">English</p>
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
                 </div>
               </div>
             </div>

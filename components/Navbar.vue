@@ -1,6 +1,6 @@
 <template>
-  <nav class="fixed mb-8 z-50 h-24 max-w-9xl w-full flex mx-auto py-2 sm:px-6 md:px-6 bg-white font-medium 
-    justify-center items-center shadow space-x-36">
+  <nav ref="navBar" class="fixed mb-8 z-50 h-24 max-w-9xl w-full flex py-2 sm:px-6 md:px-6 bg-white font-medium
+    justify-center items-center space-x-36">
       <!-- Extract: MobileMenu Vue component -->
       <div>
         <svg
@@ -39,8 +39,8 @@
           </g>
         </svg>
       </div>
-      <div class="flex space-x-8 ">
-        <a href="http://" class="hover:text-green-500 uppercase">docs</a>
+      <div class="flex space-x-8">
+        <a href="/detail" class="hover:text-green-500 uppercase">docs</a>
         <a href="http://" class="text-green-500 uppercase">example</a>
         <a href="http://" class="hover:text-green-500 uppercase">faq</a>
         <a href="http://" class="hover:text-green-500 uppercase">blog</a>
@@ -49,7 +49,7 @@
           <p class="absolute -right-8 -top-0 text-ss px-1 text-white bg-orange-400 rounded">new</p>
         </div>
       </div>
-      <div class="flex ">
+      <div class="flex">
         <div class="relative">
           <form action="" method="post">
             <div class="absolute inset-3">
@@ -81,10 +81,25 @@
 
 <script>
 export default {
+    methods: {
+    handleScroll(event) {
+      if (window.scrollY > 10) {
+        this.$refs['navBar'].classList.add('floatingNav')
+      } else {
+        this.$refs['navBar'].classList.remove('floatingNav')
+      }
+    }
+  },
 
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
 }
 </script>
 
 <style>
-
+  .floatingNav {
+    border-radius: 2px;
+    box-shadow: 0px 1px 2px rgb(190, 190, 190);
+  }
 </style>
